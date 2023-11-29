@@ -71,7 +71,7 @@ html {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #cf711f;
+  color: var(--primary-hover);
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
@@ -103,7 +103,7 @@ html {
 }
 .btn-full:hover,
 .btn-full:focus {
-  background-color: #cf711f;
+  background-color:var(--primary-hover);
 }
 .btn-outline:hover,
 .btn-outline:focus {

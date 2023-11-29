@@ -30,18 +30,18 @@
 }
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: var(--primary-hover);
 }
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   color: #fff;
-  background-color:var(--primary);
+  background-color: var(--primary);
 }
 .main-nav-link.nav-cta:hover,
 .nav-cta:active {
-  background-color: #cf711f;
+  background-color: var(--primary-hover);
 }
 .sticky .header {
   position: fixed;
@@ -312,7 +312,7 @@
   margin-bottom: 4.8rem;
 }
 .plan-name {
-  color: #cf711f;
+  color: var(--primary-hover);
   font-weight: 500;
   font-size: 2rem;
   margin-bottom: 3.2rem;
